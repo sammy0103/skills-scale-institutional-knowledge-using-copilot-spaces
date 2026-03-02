@@ -1,46 +1,29 @@
 # OctoAcme Project Management Overview
 
-## Purpose
-Provide a concise, shareable introduction to how OctoAcme runs projects so new teammates can quickly understand our approach, roles, and key artifacts.
+## Project Management Process
 
-## Scope
-Applies to all cross-functional projects that deliver product features, services, or integrations.
+This repository captures and organizes our project management workflows to ensure consistency and knowledge sharing across the team.
 
-## Principles
-- Customer-first: prioritize customer value and usability.
-- Iterative delivery: deliver small, testable increments.
-- Clear ownership: each project has a named Project Manager (PM) and Product Lead.
-- Data-informed decisions: measure impact and iterate based on evidence.
-- Psychological safety: encourage feedback and learning.
+## Workflow Overview
+1. **Planning** – Define project scope, goals, and deliverables.
+2. **Task Assignment** – Assign responsibilities clearly to team members.
+3. **Execution** – Track progress using issues and pull requests.
+4. **Review & Approval** – Ensure peer review before merging changes.
+5. **Documentation** – Update process docs regularly with new insights.
 
-## Core Roles
-- Project Manager (PM): coordinates delivery, schedules, risk, communications.
-- Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
-- Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+## Roles & Responsibilities
+- **Project Manager** – Oversees timelines, ensures documentation is up to date.
+- **Team Lead** – Coordinates tasks and reviews pull requests.
+- **Developer** – Implements features, fixes bugs, and updates issues.
 
-## Key Artifacts
-- Project Charter / One-pager
-- Roadmap and Release Plan
-- Sprint/Iteration Backlog
-- Acceptance Criteria & Definition of Done
-- Risk Register
-- Retrospective notes and action items
+## Improvements Added
+- Clarified approval workflow: all pull requests must be reviewed by at least one team lead before merging.
+- Added a checklist for onboarding new contributors:
+  - Read this documentation.
+  - Review open issues for context.
+  - Follow coding standards in `/docs/standards.md`.
 
-## Lifecycle (high-level)
-1. Initiation: problem statement, stakeholders, high-level timeline.
-2. Planning: scope, resources, milestones, dependencies.
-3. Execution: build, test, review, iterate.
-4. Release: deploy, verify, announce.
-5. Close & Retrospective: capture learnings and next steps.
-
-## Communication Cadence
-- Weekly sync between PM + PdM
-- Twice-weekly standups for delivery team (or as agreed)
-- Monthly stakeholder updates
-- Ad-hoc escalations as needed
-
-## How to use these docs
-- Keep the Project Charter updated in the project repo.
-- Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+## Next Steps
+- Continue capturing insights from Copilot Spaces.
+- Use issues to track gaps or unclear steps in the process.
+- Regularly update this documentation to reflect evolving practices.
